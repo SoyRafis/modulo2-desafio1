@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  border: #bec1bb 1px solid;
+  height: 100vh;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  border: #bec1bb 1px solid;
+}
+
+.avatar-container {
+  width: 50px;
+}
+.avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 50px;
+  border-radius: 9999px;
+}
+
+.user-name {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.user-status {
+  font-size: large;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.button-container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #bec1bb 1px solid;
+}
+
+.button-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a491d2;
+  height: 75px;
+  width: 225px;
+  font-size: larger;
+  color: white;
+}
+
+.chat-window {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  width: 275px;
+  height: 275px;
+}
+
+.text-container {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-tittle {
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.sub-tittle {
+  max-width: 400px;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.chats-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 10px;
+  border: #bec1bb 1px solid;
+}
+
+.chat-text-container {
+  width: 100%;
+}
+
+.texter-name {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.text {
+  font-size: large;
+}
+
+.avatar-list {
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
+  border-radius: 9999px;
+}
+
+.footer {
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  height: 50px;
+  padding: 15px;
+}
